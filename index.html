@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href="/icon.png" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <!-- <link rel="stylesheet" href="./css/custom.min.css" /> -->
+        <link rel="stylesheet" href="./css/style.css">
+        <title>8 React Projects to Build in 2023</title>
+    </head>
+    <body>
+        <nav>
+            <div class="nav-top">
+                <div class="nav-top-left">
+                    <form action="#">
+                        <div class="search-bar">
+                            <button type="submit">
+                                <svg class="ais-searchbox-submiticon" xmlns="https://www.w3.org/2000/svg" height="10" viewbox="0 0 40 40">
+                                    <path d="M26.804 29.01c-2.832 2.34-6.465 3.746-10.426 3.746C7.333 32.756 0 25.424 0 16.378 0 7.333 7.333 0 16.378 0c9.046 0 16.378 7.333 16.378 16.378 0 3.96-1.406 7.594-3.746 10.426l10.534 10.534c.607.607.61 1.59-.004 2.202-.61.61-1.597.61-2.202.004L26.804 29.01zm-10.426.627c7.323 0 13.26-5.936 13.26-13.26 0-7.32-5.937-13.257-13.26-13.257C9.056 3.12 3.12 9.056 3.12 16.378c0 7.323 5.936 13.26 13.258 13.26z"></path>
+                                </svg>
+                            </button>
+                            <input type="text" placeholder="Search 10,100+ tutorials">
+                        </div>
+                    </form>
+                </div>
+                <div class="nav-top-center">
+                    <a href="#">
+                        <img src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg" alt="freecodecamp logo">
+                    </a>
+                </div>
+                <div class="nav-top-right">
+                    <a href="#">Forum</a>
+                    <button type="button">Donate</button>
+                </div>
+            </div>
+            <div class="nav-bottom">
+                <a href="#">
+                    Learn to code — <span>free 3,000-hour curriculum</span>
+                </a>
+            </div>
+        </nav>
+        <header>
+            <span>january 5, 2023 / <a href="#">#react</a></span>
+            <h1>
+                8 React Projects to Build in 2023
+            </h1>
+            <div class="writer">
+                <img src="/reed-barger-gravatar.jpeg" alt="writer's image" />
+                <span>Reed Barger</span>
+            </div>
+            <div class="hero">
+                <img src="/8 react project to build in 2023.png" alt="photo">
+            </div>
+        </header>
+        <div class="container">
+            <main>
+                <div class="main-section">
+                    <section class="primary">
+                        <p>
+                            If you want to be good at React, building projects is one of the best ways to do it.
+                        </p>
+                        <p>
+                            I have put together eight different projects that will not only show you what's possible to make with React, but give you some inspiration on what apps to make.
+                        </p>
+                        <p>
+                            Additionally, I will give you all the tools that you need to effectively build out each project in the list.
+                        </p>
+                        <p>Let's get started!</p>
+                        <h2>
+                            Todo App
+                        </h2>
+                        <p>If you want to get started building projects, there's no better starting place than a simple todo app.</p>
+                        <p>
+                            A todo application will feature basic CRUD functionality, meaning that you can create, read, update and delete todos. Todos can be replaced with whatever type of content that you want. In fact, many applications we use on a daily basis could arguably be considered glorified todo apps.
+                        </p>
+                        <p>
+                            The benefit of building a todo app is that the entire app can be made in a short period of time. If you can build a todo app without any tutorial to guide you, it is a good test to see your proficiency with React.
+                        </p>
+                        <figure>
+                            <img src="/to do scrnsht.png" alt="todo app image">
+                            <figcaption>
+                                TodoMVC todo app
+                            </figcaption>
+                        </figure>
+                        <p>
+                            Todo apps are a great project to begin with because you do not need any third-party libraries to build them. You can make your todo app as complex as you like, which will help you become confident with concepts that you want to learn. Want to add authentication or a database to your app? Feel free to do so! You can truly make it as simple or complex as you like.
+                        </p>
+                        <h3>
+                            Stack To Use
+                        </h3>
+                        <ul>
+                            <li>Barebones React app</li>
+                            <li>Core React features (State, Context, and so on.)</li>
+                            <li>That's it!</li>
+                        </ul>
+                        <h2>
+                            Personal Blog
+                        </h2>
+                        <p>
+                            A step up from the basic todo app is a blog website.
+                        </p>
+                        <p>
+                            If you would like to write in <strong>Markdown</strong>, which is a popular style of writing and formatting text, your blog will likely consist of a number of Markdown (.md) files.
+                        </p>
+                        <p>
+                            If you want the content to be included locally within the project to make it a bit more difficult, you could try fetching it from an external source like a CMS (content management system) such as Sanity or Contentful.
+                        </p>
+                        <figure>
+                            <img src="/blog img.png" alt="blog image">
+                            <figcaption>
+                                Next Blog Starter Kit (https://next-blog-starter.vercel.app/)
+                            </figcaption>
+                        </figure>
+                        <p>
+                            In either case, this blog is going to consist of static pages so you can use any static site generator that you like.
+                        </p>
+                        <p>
+                            A good framework choice for this blog could be <strong>Next.js</strong> or <strong>Gatsby</strong>. Both are ideal to make text-driven websites like blogs because they are server-rendered frameworks and give you better SEO. This is compared to a traditional client-rendered React app (one made with Create React App, for example).
+                        </p>
+                        <p>
+                            Our stack will consist of one of these React frameworks plus a transformer to convert our markdown content into HTML when our site is built. A good choice to transform our markdown content is the <code>remark</code> npm package.
+                        </p>
+                        <p>
+                            If you want to make an even more impressive blog, with dynamic content, then you can consider using <strong>MDX.</strong> MDX is very similar to plain markdown, but it also allows you to include your own custom React components within the markdown.
+                        </p>
+                        <p>
+                            To use MDX, you would use a package like <code>next-mdx-remote</code> if you're using Next.js. The plain <code>mdx-js/mdx</code> package also works great.
+                        </p>
+                        <h3>
+                            Stack To Use
+                        </h3>
+                        <ul>
+                            <li>Next.js/Gatsby</li>
+                            <li>Markdown or MDX (<code>remark</code> or <code>mdx-js/mdx</code>)</li>
+                            <li>CMS (Contentful or Sanity)</li>
+                        </ul>
+                        <p>
+                            Just a quick note: for each of these projects, I won't be talking about styling. I personally prefer using plain CSS in the form of TailwindCSS. You can head to Tailwind's website to see how to easily set that up for whatever React framework you're using.
+                        </p>
+                        <h2>
+                            E-commerce App
+                        </h2>
+                        <p>
+                            The next step up from our blog project is an e-commerce app.
+                        </p>
+                        <p>
+                            It has a lot of similar features to our blog, including the fact that most of the content is going to be largely static and unchanging.
+                        </p>
+                        <p>
+                            Once again, the data can be sourced locally or fetched from a CMS at build time. What's different about an e-commerce app is that it allows us to venture into working with a server of some sort.
+                        </p>
+                        <figure>
+                            <img src="/next js1 e commerce app.png" alt="e-commerce app image">
+                            <figcaption>
+                                Next.js E-commerce App
+                            </figcaption>
+                        </figure>
+                        <p>
+                            If you want your customers to purchase an item through Stripe, for example, you might want to set up a <strong>webhook</strong> that will receive an event from Stripe when your customer has purchased a particular item. This is essential for managing things like your product inventory.
+                        </p>
+                        <p>
+                            To very easily write server-side code, you could use an API route so that you don't have to set up a complete Node.js project. This function would process different events that take place upon checkout or after checkout.
+                        </p>
+                        <p>
+                            Additionally, if you don't want to have to touch any server-side code, you can avoid the <code>stripe</code> npm package entirely and just use <strong>Stripe checkout</strong> or a <strong>Stripe payment link.</strong>
+                        </p>
+                        <p>
+                            Going forward, every project that we're going to touch on will involve a server of some sort. Most every application you use has a backend and a frontend. React will always be the frontend of our application but be aware that for any of these projects, you can very easily set up a server for your application to handle things like talking with a database when you have a framework like Next.js.
+                        </p>
+                        <p>
+                            Next.js includes a special type of page called an <strong>API route,</strong> which allows you to do server-side things such as authentication, webhooks, reading and writing to a database, and much more. Additionally, we'll touch on some solutions like Firebase that don't require you to make a backend at all!
+                        </p>
+                        <h3>
+                            Stack To Use
+                        </h3>
+                        <ul>
+                            <li>Next.js</li>
+                            <li>Stripe (using API Routes for webhooks)</li>
+                            <li>CMS (Contentful or Sanity)</li>
+                        </ul>
+                        <h2>
+                            News/Community App (Reddit Clone)
+                        </h2>
+                        <p>
+                            A Reddit clone that is centered around sharing links or very simple posts is a good step up from our todo app.
+                        </p>
+                        <figure>
+                            <img src="/reddit img.gif" alt="reddit clone">
+                            <figcaption>
+                                Reddit clone, built with React
+                            </figcaption>
+                        </figure>
+                        <p>
+                            We are still creating, updating, and deleting data, but this time it's going to be saved in a database. We might allow users to add different types of content, like a video or a link or a short post. We can use Firebase for our project to get started, which will give us the <strong>Firestore database.</strong>
+                        </p>
+                        <p>
+                            Our Firestore database will consist of a simple collection that will save all of the individual posts that a user has made. We can further develop it by allowing other users to add comments and likes to the posts.
+                        </p>
+                        <p>
+                            An even more developed app would include authentication. Fortunately, <strong>Firebase Auth</strong> makes it very easy. We can also add likes to individual comments and replies to comments for our comment threads.
+                        </p>
+                        <p>
+                            We could use any React framework for this. A good choice would be one using a <strong>Vite</strong> template. For our individual posts, we would need dynamic routes to fetch individual posts based off of their id. A good choice for that would be React Router.
+                        </p>
+                        <h3>Stack To Use</h3>
+                        <ul>
+                            <li>React (bootstrapped with Vite)</li>
+                            <li>React Router (install <code>react-router-dom</code>)</li>
+                            <li>Firestore database (from Firebase)</li>
+                            <li>Firebase Auth</li>
+                        </ul>
+                        <h2>
+                            Chat App (Discord Clone)
+                        </h2>
+                        <p>
+                            To add to our Reddit app, we could make it into something like Discord by displaying messages in realtime.
+                        </p>
+                        <figure>
+                            <img src="/discord clone.gif" alt="discord clone">
+                            <figcaption>
+                                Discord clone, built with React
+                            </figcaption>
+                        </figure>
+                        <p>
+                            If we change the posts into threads, we now have a chat app where it's an ongoing conversation.
+                        </p>
+                        <p>
+                            Like the Reddit clone, users can still add any type of media that they like. A good touch would be adding link previews so when a user shares a link, such as a YouTube video, other users can get a little card that displays what is actually linked to with an image before the user clicks on it. There's a library called <code>react-tiny-link</code> that allows you to do that.
+                        </p>
+                        <p>
+                            We can still use Firebase for this project. This is a good use case for the Firebase realtime database so that we don't need to refresh or reload the page to see new messages.
+                        </p>
+                        <p>
+                            Additionally, we can add different roles to our users in Discord. In the real Discord app, there are moderators with greater controls over the other users. One example feature would be to add a ban feature to remove a user from a given channel or community.
+                        </p>
+                        <h3>
+                            Stack To Use
+                        </h3>
+                        <ul>
+                            <li>React (bootstrapped with Vite)</li>
+                            <li>React Router (install <code>react-router-dom</code>)</li>
+                            <li><code>react-tiny-link</code></li>
+                            <li>Firebase realtime database</li>
+                            <li>Firebase Auth</li>
+                        </ul>
+                        <h2>
+                            Messenger App (WhatsApp Clone)
+                        </h2>
+                        <p>
+                            An offshoot of this type of realtime app would be a messenger-style app like that of WhatsApp.
+                        </p>
+                        <figure>
+                            <img src="/whats app clone.gif" alt="whatsapp clone image">
+                            <figcaption>
+                                WhatsApp clone, made with React
+                            </figcaption>
+                        </figure>
+                        <p>
+                            This app would be a little bit more limited in that conversations are usually done with one person, although they don't have to be. Instead of talking in channels you will have different options to talk with one or another person at a time.
+                        </p>
+                        <p>
+                            A good touch would be to add notifications when someone messages you. This is another app example that would require realtime data functionality from your database. Firebase is always a good option for that.
+                        </p>
+                        <p>
+                            If Firebase gets boring, you could try Supabase which is a very competitive alternative also with realtime database features, but which is backed by Postgres instead of Firestore.
+                        </p>
+                        <h3>
+                            Stack To Use
+                        </h3>
+                        <ul>
+                            <li>React (bootstrapped with Vite)</li>
+                            <li>React Router (install <code>react-router-dom</code>)</li>
+                            <li>Supabase</li>
+                        </ul>
+                        <h2>
+                            Social Media App (Twitter Clone)
+                        </h2>
+                        <p>
+                            What if instead of having an app where one person talks directly with another person in a very confined space, you want the opposite, where anyone can interact with anyone!
+                        </p>
+                        <p>
+                            A great example of this type of app would be Twitter.
+                        </p>
+                        <figure>
+                            <img src="/twitter-clone.gif" alt="twitter clone gif">
+                            <figcaption>
+                                Twitter clone, made with React
+                            </figcaption>
+                        </figure>
+                        <p>
+                            Twitter is an app that requires a feed as well as a trending page in a user's feed. The user will be able to see all of the posts from the people that they follow. But on the trending page, they will see all of the most popular posts across the entire website.
+                        </p>
+                        <p>
+                            To be able to figure out which posts are the most popular, you will add the ability to like (heart) a given post as well as re-share it, which allows a post to be added to or associated with another user. Finally, you will want to allow users to directly reply to other posts (like Twitter's "quote tweet" feature).
+                        </p>
+                        <p>
+                            And another fundamental feature that could be added to every app that we've covered up until this point is search. In our Twitter clone, users would likely want to be able to search for different users to follow as well as posts based on their content.
+                        </p>
+                        <p>
+                            One downside to Firebase is that it does not have the best tools for search and it's not easy to perform queries that are based on a certain keyword. This is one instance in which <strong>Supabase</strong> would be a superior alternative.
+                        </p>
+                        <h3>
+                            Stack To Use
+                        </h3>
+                        <ul>
+                            <li>React (bootstrapped with Vite)</li>
+                            <li>React Router (install <code>react-router-dom</code>)</li>
+                            <li>Supabase or Firebase</li>
+                        </ul>
+                        <h2>
+                            Video Sharing App (YouTube/TikTok Clone)
+                        </h2>
+                        <p>
+                            The last fun project in this list is a video sharing app such as YouTube or TikTok.
+                        </p>
+                        <p>
+                            The two apps have very similar features, with YouTube primarily focusing on long form video content and Tiktok mainly consisting of super-short videos under a minute.
+                        </p>
+                        <p>
+                            Both platforms utilize an infinite scroll feature, whether you're scrolling through suggested videos or recommended videos. TikTok itself is arguably just one big infinite-scrolling feed.
+                        </p>
+                        <figure>
+                            <img src="/tik tok clone.gif" alt="tiktok clone image">
+                            <figcaption>
+                                Tiktok clone, made with React
+                            </figcaption>
+                        </figure>
+                        <p>
+                            What would be hardest to implement about both these platforms is the algorithm. You could go very far on building an app that just relies on users following other users and having a homepage with the most popular videos. Your users would first be suggested videos from the people that they follow and then the popular videos on the site.
+                        </p>
+                        <p>
+                            The most essential feature for both TikTok and YouTube is streaming video. To allow users to upload their own content you need a service that includes an upload API. Some good choices in this area are <strong>Cloudflare Stream,</strong> Video.js, or Mux.
+                        </p>
+                        <p>
+                            All of these tools provide you with a video player as well as an API, which would handle uploading videos that could then be posted to the site.
+                        </p>
+                        <p>
+                            I would personally build this app using my own server and database. I would probably choose <strong>Prisma</strong> as the ORM (object-relational mapped) to interact with the database which would be a <strong>MySQL</strong> database managed by Planetscale.
+                        </p>
+                        <h3>
+                            Stack To Use
+                        </h3>
+                        <ul>
+                            <li>Next.js (with API Routes for interacting with database)</li>
+                            <li>The <code>next-auth</code> package (to add Google Auth, among other auth providers)</li>
+                            <li>Cloudflare stream or Video.js (as our video player and to host our videos)</li>
+                            <li>Prisma (as our ORM)</li>
+                            <li>MySQL (managed by Planetscale)</li>
+                        </ul>
+                        <h2>
+                            Enjoyed this tutorial? Here's a special bonus.
+                        </h2>
+                        <p>
+                            Reading tutorials are a great way to learn React, but there is no replacement for hands-on coding.
+                        </p>
+                        <a href="#" class="introducing">Introducing: the Learn React app</a>
+                        <p>
+                            The Learn React app is an interactive learning experience designed to make you a confident React developer through 100s of fun challenges.
+                        </p>
+                        <p>
+                            Ready to level up your React skills? Click the link below to get started!
+                        </p>
+                        <figure>
+                            <a href="#"><img src="/learn-react-app.png" alt="learn react image"></a>
+                        </figure>
+                        <p>
+                            <em>Click to join the Learn React App</em>
+                        </p>
+                    </section>
+                    <aside></aside>
+                </div>
+                <section class="secondary">
+                    <div class="writer">
+                        <img src="/reed-barger-gravatar.jpeg" alt="writer's image" />
+                        <div class="about-writer">
+                            <span>Reed Barger</span>
+                            <p>
+                                React developer who loves to make incredible apps.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="tweet">
+                        <p>
+                            If this article was helpful, <button type="button">tweet it</button>.
+                        </p>
+                        <p>
+                            Learn to code for free. freeCodeCamp's open source curriculum has helped more than 40,000 people get jobs as developers. <button type="button">Get started</button>
+                        </p>
+                    </div>
+                    <div class="advertisement">
+                        <p>ADVERTISEMENT</p>
+                        <div></div>
+                    </div>
+                </section>
+            </main>
+        </div>
+        <div class="footer-container">
+            <footer>
+                <div class="footer-top-left">
+                    <p>
+                        freeCodeCamp is a donor-supported tax-exempt 501(c)(3) charity organization (United States Federal Tax Identification Number: 82-0779546)
+                    </p>
+                    <p>
+                        Our mission: to help people learn to code for free. We accomplish this by creating thousands of videos, articles, and interactive coding lessons - all freely available to the public. We also have thousands of freeCodeCamp study groups around the world.
+                    </p>
+                    <p>
+                        Donations to freeCodeCamp go toward our education initiatives, and help pay for servers, services, and staff.
+                    </p>
+                    <p>
+                        <strong>You can <a href="#">make a tax-deductible donation here.</a></strong>
+                    </p>
+                </div>
+                <h5 class="trending">
+                    Trending Guides
+                </h5>
+                <div class="footer-top-right-1">
+                    <a href="#" target="_blank" rel="noopener">
+                        JS Substring Tutorial
+                    </a>
+                    <a href="#" target="_blank" rel="noopener">
+                        Bubble Sort Algorithm
+                    </a>
+                    <a href="#" target="_blank" rel="noopener">
+                        HTML Background Image
+                    </a>
+                    <a href="#" target="_blank" rel="noopener">
+                        What is Data Science?
+                    </a>
+                    <a href="#" target="_blank" rel="noopener">
+                        SQL Subquery in SELECT
+                    </a>
+                    <a href="#" target="_blank" rel="noopener">
+                        Rename a File in Linux
+                    </a>
+                    <a href="#" target="_blank" rel="noopener">
+                        Git Remove Last Commit
+                    </a>
+                    <a href="#" target="_blank" rel="noopener">
+                        What is a Java Hashmap?
+                    </a>
+                    <a href="#" target="_blank" rel="noopener">
+                        CRUD Operations Defined
+                    </a>
+                    <a href="#" target="_blank" rel="noopener">
+                        Git Push Local to Remote
+                    </a>
+                </div>
+                <div class="footer-top-right-2">
+                    <a href="#" target="_blank" rel="noopener">
+                        UX vs UI
+                    </a>
+                    <a href="#" target="_blank" rel="noopener">
+                        VLOOKUP in Excel
+                    </a>
+                    <a href="#" target="_blank" rel="noopener">
+                        Big O Cheatsheet
+                    </a>
+                    <a href="#" target="_blank" rel="noopener">
+                        Git Rename Branch
+                    </a>
+                    <a href="#" target="_blank" rel="noopener">
+                        Excel Pivot Table
+                    </a>
+                    <a href="#" target="_blank" rel="noopener">
+                        What is Alt Text?
+                    </a>
+                    <a href="#" target="_blank" rel="noopener">
+                        HTML Dropdown Menu
+                    </a>
+                    <a href="#" target="_blank" rel="noopener">
+                        Python Reverse List
+                    </a>
+                    <a href="#" target="_blank" rel="noopener">
+                        Compare Arrays in JS
+                    </a>
+                    <a href="#" target="_blank" rel="noopener">
+                        HTML Background Color
+                    </a>
+                </div>
+                <div class="footer-top-right-3-a">
+                    <a href="#" target="_blank" rel="noopener">
+                        Lowercase a String in JS
+                    </a>
+                    <a href="#" target="_blank" rel="noopener">
+                        Data Visualization Tools
+                    </a>
+                    <a href="#" target="_blank" rel="noopener">
+                        CSS Selectors Cheatsheet
+                    </a>
+                    <a href="#" target="_blank" rel="noopener">
+                        Sort Dict by Value Python
+                    </a>
+                    <a href="#" target="_blank" rel="noopener">
+                        Change Text Color in HTML
+                    </a>
+                </div>
+                <div class="footer-top-right-3-b">
+                    <a href="#" target="_blank" rel="noopener">
+                        Python Dict Comprehension
+                    </a>
+                    <a href="#" target="_blank" rel="noopener">
+                        Restart Kernel in Windows
+                    </a>
+                    <a href="#" target="_blank" rel="noopener">
+                        Computer Programmer Salary
+                    </a>
+                    <a href="#" target="_blank" rel="noopener">
+                        Dual Boot Windows + Ubuntu
+                    </a>
+                    <a href="#" target="_blank" rel="noopener">
+                        What is Information Systems?
+                    </a>
+                </div>
+                <h5 class="charity">
+                    Our Charity
+                </h5>
+                <div class="footer-bottom">
+                    <a href="#" target="_blank" rel="noopener">About</a>
+                    <a href="#" target="_blank" rel="noopener">Alumni Network</a>
+                    <a href="#" target="_blank" rel="noopener">Open Source</a>
+                    <a href="#" target="_blank" rel="noopener">Shop</a>
+                    <a href="#" target="_blank" rel="noopener">Support</a>
+                    <a href="#" target="_blank" rel="noopener">Sponsors</a>
+                    <a href="#" target="_blank" rel="noopener">Academic Honesty</a>
+                    <a href="#" target="_blank" rel="noopener">Code of Conduct</a>
+                    <a href="#" target="_blank" rel="noopener">Privacy Policy</a>
+                    <a href="#" target="_blank" rel="noopener">Terms of Service</a>
+                    <a href="#" target="_blank" rel="noopener">Copyright Policy</a>
+                </div>
+            </footer>
+        </div>
+        <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script> -->
+    </body>
+</html>
